@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0e0e;
+  color: #c7f5ff;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 1.6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #c7f5ff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #87f0ff;
+  border-color: #87f0ff;
+}
+
+h2 {
+  font-size: 1.4rem;
+  border-left: 4px solid #00ffff;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #00ffff;
+}
+
+.project, .gallery-item {
+  background-color: #181818;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-left: 3px solid #00ffff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.project:hover, .gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #00ffff;
+}
+
+footer {
+  font-size: 0.8rem;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  color: #888;
+  margin-top: 40px;
+}
+
+.profile-container {
+  margin: 30px 0;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+  object-fit: cover;
+}
+
